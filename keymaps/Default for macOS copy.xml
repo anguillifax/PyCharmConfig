@@ -35,6 +35,12 @@
   <action id="FileChooser.GotoDesktop" />
   <action id="GotoLine" />
   <action id="GotoSuperMethod" />
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="f1" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+    <mouse-shortcut keystroke="control button2" />
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt l" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta d" />

@@ -39,7 +39,14 @@
     <keyboard-shortcut first-keystroke="meta alt l" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta d" />
   </action>
+  <action id="Refresh" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="Replace" />
   <action id="ReplaceInPath" />
+  <action id="Rerun" />
   <action id="RerunTests">
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
@@ -51,6 +58,8 @@
   <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.Log.Refresh" />
   <action id="XDebugger.CopyWatch" />
+  <action id="hg4idea.QRefresh" />
   <action id="openAssertEqualsDiff" />
 </keymap>
